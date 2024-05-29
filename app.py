@@ -13,9 +13,9 @@ app.config['MAIL_SERVER'] = 'smtp.gmail.com'#'smtp.gmail.com'#'127.0.0.1:4535''m
 app.config['MAIL_PORT'] = 465 # Use the appropriate port for SSL 465
 app.config['MAIL_USE_TLS'] = False
 app.config['MAIL_USE_SSL'] = True
-app.config['MAIL_USERNAME'] = 'davidkonan01@gmail.com'#'noreply@visionstrategie.com'
-app.config['MAIL_PASSWORD'] = 'ajvgphydufcthaqc'#'ajvg phyd ufct haqc'#'Uz2M8rHMQ5Xyfyt'
-app.config['MAIL_DEFAULT_SENDER'] = 'noreply@visionstrategie.com'#'noreply@visionstrategie.com'
+app.config['MAIL_USERNAME'] = 'VISION STRATEGIE'#'noreply@visionstrategie.com'
+app.config['MAIL_PASSWORD'] = 'ukjs elgw yapd ulva'#'ajvg phyd ufct haqc'#'Uz2M8rHMQ5Xyfyt'
+app.config['MAIL_DEFAULT_SENDER'] = 'davidkonan01@gmail.com'#'noreply@visionstrategie.com'
 
 mail = Mail(app)
 
@@ -47,4 +47,4 @@ api.add_resource(HelloWorld, '/')
 api.add_resource(SendMailResource, '/send-mail')
 
 if __name__ == '__main__':
-    app.run(debug=True,port=4535,host="0.0.0.0")
+    app.run() #debug=True,port=4535,host="0.0.0.0"
