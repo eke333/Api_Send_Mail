@@ -13,9 +13,9 @@ app.config['MAIL_SERVER'] = 'smtp.gmail.com'#'smtp.gmail.com'#'127.0.0.1:4535''m
 app.config['MAIL_PORT'] = 465 # Use the appropriate port for SSL 465
 app.config['MAIL_USE_TLS'] = False
 app.config['MAIL_USE_SSL'] = True
-app.config['MAIL_USERNAME'] = 'davidkonan01@gmail.com'#'noreply@visionstrategie.com'
-app.config['MAIL_PASSWORD'] = 'ukjs elgw yapd ulva'#'ajvg phyd ufct haqc'#'Uz2M8rHMQ5Xyfyt'
-app.config['MAIL_DEFAULT_SENDER'] = 'davidkonan01@gmail.com'#'noreply@visionstrategie.com'
+app.config['MAIL_USERNAME'] = 'visionstrategie@gmail.com'#'noreply@visionstrategie.com'
+app.config['MAIL_PASSWORD'] = 'wgos zjtd gmfo uubj'#'ajvg phyd ufct haqc'#'Uz2M8rHMQ5Xyfyt'
+app.config['MAIL_DEFAULT_SENDER'] = 'visionstrategie@gmail.com'#'noreply@visionstrategie.com'
 
 mail = Mail(app)
 
@@ -34,7 +34,7 @@ class SendMailResource(Resource):
             html_content = data["message"]
 
             # Create a message object
-            msg = Message(subject=subject, recipients=[recipient], html=html_content, sender='davidkonan01@gmail.com')
+            msg = Message(subject=subject, recipients=[recipient], html=html_content, sender='visionstrategie@gmail.com')
 
             # Send the email
             mail.send(msg)
