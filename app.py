@@ -14,7 +14,7 @@ app.config['MAIL_PORT'] = 465 # Use the appropriate port for SSL 465
 app.config['MAIL_USE_TLS'] = False
 app.config['MAIL_USE_SSL'] = True
 app.config['MAIL_USERNAME'] = 'visionstrategie@gmail.com'#'noreply@visionstrategie.com'
-app.config['MAIL_PASSWORD'] = 'wgos zjtd gmfo uubj'#'ajvg phyd ufct haqc'#'Uz2M8rHMQ5Xyfyt'
+app.config['MAIL_PASSWORD'] = 'dunp qbqo lnzb meki'#'ajvg phyd ufct haqc'#'Uz2M8rHMQ5Xyfyt'
 app.config['MAIL_DEFAULT_SENDER'] = 'visionstrategie@gmail.com'#'noreply@visionstrategie.com'
 
 mail = Mail(app)
